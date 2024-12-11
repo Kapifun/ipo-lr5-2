@@ -1,10 +1,11 @@
-spisok1=input("Введите первую строку:")
-spisok2=input("Введите вторую строку:")
-
-sort_spisok1 = sorted(spisok1.lower())
-sort_spisok2 = sorted(spisok2.lower())
-                  
-if sort_spisok1 == sort_spisok2:
-    print("Строки анаграммны")
+str1=input("Введите первую строку:")
+str2=input("Введите вторую строку:")
+#сорттировка строк
+sort_str1 = sorted(str1.lower())
+sort_str2 = sorted(str2.lower())
+#проверка на условие через if
+if sort_str1 == sort_str2:
+  #вывод результата
+    print('Списки анаграммы')
 else:
-    print("Строки не анаграммны")
+    print('Списки не анаграммы')
